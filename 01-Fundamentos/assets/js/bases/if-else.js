@@ -38,7 +38,7 @@ console.log({dia})
 
     const diasdelaSemana = {
       0: 'domingo',   // como realizar funcionalidades dentro de los objetos
-      1: 'lunes',     // UTILIZAR CONST
+      1: 'lunes',     // UTILIZAR =>
       2: 'martes',
       3: 'miercoles',
       4: 'jueves',
