@@ -2,7 +2,7 @@
 
 let a = 30;
 let b = a;
-a = 30;
+a = 50;
 
 console.log( {a, b});
 

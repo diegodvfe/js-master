@@ -1,7 +1,7 @@
 
 
 
-let a = 5;
+let a = 10;
 
 
 if ( a >= 10) { // EXCEPCIONES undefined, null, una asignacion
@@ -12,12 +12,12 @@ if ( a >= 10) { // EXCEPCIONES undefined, null, una asignacion
 
 // console.log(' Fin de progr
 //  En el new Date tu puedes definir que es importante dentro de los parantesis ( 01, september, 2021,  15:50pm );
-const hoy = new Date(); // este metodo te define poder trabajar un nuevo dia
+const hoy = new Date(0); // este metodo te define poder trabajar un nuevo dia
 let dia = hoy.getDate(); // esta metodo te brinda toda la informacion necesaria ( dia, mes, hora, pais)
 
 console.log({dia})
 
-    if ( dia === 2){
+    if ( dia === 0){
       console.log('Domingo ');
     } else if ( dia === 3 ) {
       console.log('Hoy es viernes, listo para fiesta')
@@ -34,7 +34,7 @@ console.log({dia})
 
 
 
-      dia  = 5;
+      dia  = 2;
 
     const diasdelaSemana = {
       0: 'domingo',   // como realizar funcionalidades dentro de los objetos

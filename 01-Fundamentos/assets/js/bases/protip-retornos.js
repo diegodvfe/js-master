@@ -41,6 +41,9 @@ imprimirArgumentos2( 'sofia', 38, false, true, )
 // 1. Debe de ir por defecto las funciones de primero
 
 const imprimirPropiedades = ({ nombre, codeName, vivo, edad = 67, estado_civil, trajes}) => {
+
+  edad = 16 || 30;
+
   console.log( {nombre});
   console.log({ codeName });
   console.log({ vivo });
@@ -53,7 +56,7 @@ const diego = {
   nombre: " Tony",
   codeName: ' Iromas',
   vivo: true,
-  // edad: 0,   // Este 
+  // edad: 0,   // Este
   estado_civil: 'casado',
   trajes: [ 'Mark I', 'Mark V', 'Hulkerbanker']
 };

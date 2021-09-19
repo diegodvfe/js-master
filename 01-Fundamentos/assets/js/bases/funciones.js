@@ -23,8 +23,8 @@ saludarFlecha('Sofia')
 // ----------------------------------------------------------------------
 
 function argumentos (nombre) {
-  // console.log( 'Hola ' + nombre)
-  // console.log( arguments );
+  console.log( 'Hola ' + nombre)
+  console.log( arguments );
   return 1;       // al momento de escribir un consolo.log no se va ejecutar por una sola cosa
 
                   //   1. La primera es que el retorno significa que hasta ahi va poder leer el codigo.
@@ -36,7 +36,7 @@ function argumentos (nombre) {
 const retornoDeSaludar = argumentos('Vanessa' , 31, false, 'Alemania' );
 
 console.log({retornoDeSaludar});
-argumentos(' diego');
+// argumentos(' diego');
 
 //----------------------- Ejercicios de Funciones----------------------------------------------------
 
@@ -51,6 +51,7 @@ const sumar2 = (a,b) => {
 }
 
 console.log(sumar2( 3,5) );
+
 
 const sumar3 = (c, d) => c +d; // unicamente cuando se ejecuta una sola cosa
 console.log(sumar3( 38, 5));
