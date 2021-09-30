@@ -1,3 +1,7 @@
+// -PATRON MODULO
+// (()=>{
+// })();
+
 const miModulo = (() => {
     'use strict';
 
